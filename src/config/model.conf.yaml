@@ -1,0 +1,18 @@
+paths:
+  train_data: "src/processed/dataset/train.csv"
+  output_dir: "src/output"
+  model_dir: "src/output/text2sql_model"
+
+model:
+  name: "t5-small"
+  max_length: 128
+
+training:
+  num_train_epochs: 3
+  per_device_train_batch_size: 8
+  per_device_train_batch_size: 8
+  learning_rate: 0.00005
+  logging_steps: 100
+  eval_strategy: "epoch"
+  save_strategy: "epoch"
+  logging_strategy: "steps"
