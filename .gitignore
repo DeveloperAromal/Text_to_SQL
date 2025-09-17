@@ -1,0 +1,28 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data and processed files
+src/processed/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+
+git commit -m "created preprocessor"
+git branch -M main
+git remote add origin https://github.com/DeveloperAromal/Text_to_SQL.git
+git push -u origin main
