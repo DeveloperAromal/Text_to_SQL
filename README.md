@@ -1,8 +1,18 @@
+<div align="center" style="display: flex; flex-wrap: wrap; gap: 8px;"> <a href="https://www.python.org" target="_blank"> <img src="https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"> </a> <a href="https://pytorch.org" target="_blank"> <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch"> </a> <a href="https://huggingface.co/docs/transformers/index" target="_blank"> <img src="https://img.shields.io/badge/Transformers-%23F6F6F6.svg?style=for-the-badge&logo=HuggingFace&logoColor=orange" alt="HuggingFace"> </a> </div>
+
 # Text to SQL NLP
+
 
 This project converts natural language queries into SQL statements using machine learning and natural language processing techniques.
 
-<div align="center" style="display: flex; flex-wrap: wrap; gap: 8px;"> <a href="https://www.python.org" target="_blank"> <img src="https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python"> </a> <a href="https://pytorch.org" target="_blank"> <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white" alt="PyTorch"> </a> <a href="https://huggingface.co/docs/transformers/index" target="_blank"> <img src="https://img.shields.io/badge/Transformers-%23F6F6F6.svg?style=for-the-badge&logo=HuggingFace&logoColor=orange" alt="HuggingFace"> </a> </div>
+
+## Features
+
+- Preprocessing of natural language queries
+- Model training for text-to-SQL translation
+- Inference pipeline for converting text to SQL
+- Dataset download and inspection utilities
+
 
 ## Project Structure
 
@@ -26,13 +36,6 @@ src/
     dataset/
       train.csv
 ```
-
-## Features
-
-- Preprocessing of natural language queries
-- Model training for text-to-SQL translation
-- Inference pipeline for converting text to SQL
-- Dataset download and inspection utilities
 
 ## Getting Started
 
